@@ -1,0 +1,16 @@
+{
+  "name": "trpc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "./packages/client",
+    "./packages/server"
+  ],
+  "scripts": {
+    "dev": "npm start --workspace=client & npm start --workspace=server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
